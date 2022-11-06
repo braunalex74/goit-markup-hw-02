@@ -2,11 +2,13 @@
     --primary-text-color:#757575;
     --title-text-color:#212121;
     --accent-color:#2196F3;
+    --primary-white-color:#ffffff;
 }
 
 body {
     color: var(--primary-text-color);
-    font-family: 'Roboto', sans-serif;
+
+    
 }
 
 .button {
@@ -60,4 +62,23 @@ body {
 .contact .link:hover,
 .contact .link:focus {
     color: #2196F3;
+}
+
+span {
+    color:var(--accent-color);
+}
+
+.footer-contact .link {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.footer-contact .link:hover,
+.footer-contact .link:focus {
+    color: #2196F3;
+}
+
+footer,
+.hero {
+    color: var(--primary-white-color);
+    background: #2F303A;
 }
