@@ -1,4 +1,52 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+}
 body {
     font-family: 'Roboto';
-    font-size: 22px;
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--title-text-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.charakter-list .title {
+    color: var(--title-text-color);
+}
+
+.contact .link {
+    color: #757575;
+}
+
+.contact .link:hover,
+.contact .link:focus {
+    color: #2196F3;
 }
