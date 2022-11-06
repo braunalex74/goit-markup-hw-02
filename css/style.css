@@ -12,7 +12,10 @@ body {
 }
 
 .button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
     font-family: inherit;
+
 }
 
 .list {
