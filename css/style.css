@@ -3,9 +3,14 @@
     --title-text-color:#212121;
     --accent-color:#2196F3;
 }
+
 body {
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
+}
+
+.button {
+    font-family: inherit;
 }
 
 .list {
@@ -14,6 +19,7 @@ body {
 
 .logo {
     color: var(--title-text-color);
+
     font-family: 'Raleway', sans-serif;
     font-style: 400;
     font-weight: 700;
@@ -54,8 +60,4 @@ body {
 .contact .link:hover,
 .contact .link:focus {
     color: #2196F3;
-}
-
-.button {
-    font-family: inherit;
 }
