@@ -3,19 +3,7 @@
     --title-text-color:#212121;
     --accent-color:#2196F3;
     --primary-white-color:#ffffff;
-}
-
-body {
-    color: var(--primary-text-color);
-
-    
-}
-
-.button {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-    font-family: inherit;
-
+    --background-color: #2F303A;
 }
 
 .list {
@@ -25,11 +13,13 @@ body {
 .logo {
     color: var(--title-text-color);
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-style: 400;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+
+    text-decoration: none
 }
 
 .logo:hover,
@@ -37,51 +27,153 @@ body {
     color: var(--accent-color);
 }
 
-.section-title {
+.accent {
+    color:var(--accent-color);
+}    
+
+.header-nav .link {
+    font-family: 'Roboto';
+    font-style: 400;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     color: var(--title-text-color);
+
+    text-decoration: none
 }
 
-.site-nav .link {
-    color: var(--title-text-color);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
+.header-nav .link:hover,
+.header-nav .link:focus {
     color: var(--accent-color);
 }
 
-.site-nav .link.current {
-    color: var(--accent-color);
+
+.header-contact .link {
+    font-family: 'Roboto';
+    font-style: 400;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    color: var(--primary-text-color);
+
+    text-decoration: none
 }
 
-.charakter-list .title {
-    color: var(--title-text-color);
-}
-
-.contact .link {
-    color: #757575;
-}
-
-.contact .link:hover,
-.contact .link:focus {
+.header-contact .link:hover,
+.header-contact .link:focus {
     color: #2196F3;
 }
 
-.accent {
-    color:var(--accent-color);
+.section-hero h1{
+    font-family: 'Roboto';
+    font-style: 400l;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    background-color: var(--background-color);
 }
 
+.section-hero .button {
+    font-family: 'Roboto';
+    font-style: 400;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.section-properties .properties-title {
+    font-family: 'Roboto';
+    font-style: 400;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.section-properties .properties-text {
+    font-family: 'Roboto';
+    font-style: 400;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-text-color);
+}
+
+.section-employment .employment-title {
+    font-family: 'Roboto';
+    font-style: 400;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.section-team .team-title {
+    font-family: 'Roboto';
+    font-style: 400;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.team-list .team-link {
+    font-family: 'Roboto';
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.team-list .team-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+
 .footer-contact .link {
-    color: rgba(255, 255, 255, 0.6)
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+
+    text-decoration: none
 }
 
 .footer-contact .link:hover,
 .footer-contact .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
-footer,
-.hero {
+footer {
+    background-color: var(--background-color);
+}
+
+footer .logo{
     color: var(--primary-white-color);
-    background: #2F303A;
+    text-decoration: none
+}    
+
+.footer-contact a[href="https://goo.gl/maps/PAnnSUerjHj3gwqy8"] {
+    color: var(--primary-white-color);
 }

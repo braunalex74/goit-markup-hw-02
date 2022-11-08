@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
@@ -18,13 +20,13 @@
             <a href="./index.html" class="logo">
                 <span class="accent">Web</span>Studio
             </a>
-            <ul class="site-nav list">
+            <ul class="header-nav list">
                 <li><a href="" class="link">Студія</a></li>
                 <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
                 <li><a href="" class="link">Контакти</a></li>
             </ul>
         </nav>
-        <ul class="contact list">
+        <ul class="header-contact list">
             <li>
                 <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
             </li>
@@ -39,68 +41,68 @@
 
         <!--Герой-->
         
-        <section class="section hero">
+        <section class="section-hero">
             <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button type="button">Замовити послугу</button>
+            <button type="button" class="button">Замовити послугу</button>
         </section>
        
-        <section class="section">
+        <section class="section-properties">
 
             <!--Прихований заголовок-->
-            <h2 class="section-title">Необхідні властивості характеру</h2>
+            <h2 class="properties-title">Необхідні властивості характеру</h2>
 
-            <ul class="charakter-list">
+            <ul class="properties-list list">
                 <li>
-                    <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <h3 class="properties-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p class="properties-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li>
-                    <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    <h3 class="properties-title">ПУНКТУАЛЬНІСТЬ</h3>
+                    <p class="properties-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
                 <li>
-                    <h3 class="title">ПЛАНУВАННЯ</h3>
-                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <h3 class="properties-title">ПЛАНУВАННЯ</h3>
+                    <p class="properties-text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li>
-                    <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <h3 class="properties-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p class="properties-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
         </section>
-        <section class="section">
-            <h2 class="section-title">Чим ми займаємося</h2>
-            <ul>
+        <section class="section-employment">
+            <h2 class="employment-title">Чим ми займаємося</h2>
+            <ul class="employment-list list">
                 <li><img src="./images/box_1.jpg" alt="картинка алгоритму" width="370" height="294"></li>
                 <li><img src="./images/box_2.jpg" alt="картинка схеми сайту" width="370" height="294"></li>
                 <li><img src="./images/box_3.jpg" alt="картинка вибору кольору" width="370" height="294"></li>
             </ul>
         </section>
-        <section class="section">
-            <h2 class="section-title">Наша команда</h2>
-            <ul>
+        <section class="section-team">
+            <h2 class="team-title">Наша команда</h2>
+            <ul class="team-list list">
                 <li>
                         <img src="./images/img_1.jpg" alt="фото Ігора Дем'яненко" width="270">
-                        <h3 class="section-title">Ігор Дем'яненко</h3>
-                        <p>Product Designer</p>
+                        <h3 class="team-link">Ігор Дем'яненко</h3>
+                        <p class="team-text">Product Designer</p>
                     </a>
                 </li>
                 <li>
                         <img src="./images/img_2.jpg" alt="фото Ольги Рєпіної" width="270">
-                        <h3 class="section-title">Ольга Рєпіна</h3>
-                        <p>Frontend Developer</p>
+                        <h3 class="team-link">Ольга Рєпіна</h3>
+                        <p class="team-text">Frontend Developer</p>
                     </a>
                 </li>
                 <li>
                         <img src="./images/img_3.jpg" alt="фото Миколи Тарасова" width="270">
-                        <h3 class="section-title">Микола Тарасов</h3>
-                        <p>Marketing</p>
+                        <h3 class="team-link">Микола Тарасов</h3>
+                        <p class="team-text">Marketing</p>
                     </a>
                 </li>
                 <li>
                         <img src="./images/img_4.jpg" alt="фото Михайла Єрмакова" width="270">
-                        <h3 class="section-title">Михайло Єрмаков</h3>
-                        <p>UI Designer</p>
+                        <h3 class="team-link">Михайло Єрмаков</h3>
+                        <p class="team-text">UI Designer</p>
                     </a>
                 </li>
             </ul>
@@ -115,7 +117,7 @@
         <address>
             <ul class="footer-contact list">
                 <li>
-                    <a href="https://goo.gl/maps/PAnnSUerjHj3gwqy8" target="_blank" rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a>
+                    <a href="https://goo.gl/maps/PAnnSUerjHj3gwqy8" class="link" target="_blank" rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a>
                 </li>
                 <li>
                     <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
