@@ -32,12 +32,13 @@
 }    
 
 .header-nav .link {
+    color: var(--title-text-color);
+
     font-family: 'Roboto';
     font-style: 400;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    color: var(--title-text-color);
 
     text-decoration: none
 }
@@ -49,12 +50,13 @@
 
 
 .header-contact .link {
+    color: var(--primary-text-color);
+
     font-family: 'Roboto';
     font-style: 400;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14px;
-    color: var(--primary-text-color);
 
     text-decoration: none
 }
@@ -65,6 +67,9 @@
 }
 
 .section-hero h1{
+    color: var(--primary-white-color);
+    background-color: var(--background-color);
+
     font-family: 'Roboto';
     font-style: 400l;
     font-weight: 900;
@@ -72,11 +77,12 @@
     line-height: 60px;
     text-align: center;
     text-transform: uppercase;
-    color: var(--primary-white-color);
-    background-color: var(--background-color);
 }
 
 .section-hero .button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+
     font-family: 'Roboto';
     font-style: 400;
     font-weight: 700;
@@ -84,78 +90,82 @@
     line-height: 1.88;
     align-items: center;
     text-align: center;
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
 }
 
 .section-properties .properties-title {
+    color: var(--title-text-color);
+
     font-family: 'Roboto';
     font-style: 400;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    color: var(--title-text-color);
 }
 
 .section-properties .properties-text {
+    color: var(--primary-text-color);
+
     font-family: 'Roboto';
     font-style: 400;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    color: var(--primary-text-color);
 }
 
 .section-employment .employment-title {
+    color: var(--title-text-color);
+
     font-family: 'Roboto';
     font-style: 400;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    color: var(--title-text-color);
 }
 
 .section-team .team-title {
+    color: var(--title-text-color);
+
     font-family: 'Roboto';
     font-style: 400;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    color: var(--title-text-color);
 }
 
 .team-list .team-link {
+    color: var(--title-text-color);
+
     font-family: 'Roboto';
     font-style: 400;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    color: var(--title-text-color);
 }
 
 .team-list .team-text {
+    color: var(--primary-text-color);
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
 }
 
 
 .footer-contact .link {
+    color: rgba(255, 255, 255, 0.6);
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71;
 
     text-decoration: none
 }
@@ -171,6 +181,7 @@ footer {
 
 footer .logo{
     color: var(--primary-white-color);
+
     text-decoration: none
 }    
 
