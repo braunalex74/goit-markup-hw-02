@@ -63,23 +63,26 @@
 
 .header-contact .link:hover,
 .header-contact .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .section-hero h1{
     color: var(--primary-white-color);
-    background-color: var(--background-color);
 
     font-family: 'Roboto';
     font-style: 400l;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     text-transform: uppercase;
 }
 
-.section-hero .button {
+.section-hero {
+    background-color: var(--background-color);
+}
+
+button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 
@@ -90,6 +93,14 @@
     line-height: 1.88;
     align-items: center;
     text-align: center;
+
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .section-properties .properties-title {
