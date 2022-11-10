@@ -157,12 +157,18 @@ body {
 }
 
 /*---------------portfolio---------------*/
-.portfolio-btn {
+.portfolio-list .portfolio-btn {
     color: var(--title-text-color);
 
     font-weight: 500;
     line-height: 1.63;
     letter-spacing: 0.03em;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
 
 .portfolio-title {
