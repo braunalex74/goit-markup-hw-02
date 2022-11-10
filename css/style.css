@@ -15,6 +15,7 @@ body {
     list-style: none;
 }
 
+/*---------------header---------------*/
 .logo {
     color: var(--title-text-color);
 
@@ -57,6 +58,7 @@ body {
     color: var(--primary-text-color);
 }
 
+/*---------------hero---------------*/
 .section-hero h1{
     color: var(--primary-white-color);
 
@@ -73,17 +75,23 @@ body {
 }
 
 .btn {
+    font-family: inherit;
+    font-size: 16px;
+    text-align: center;
+}
+
+.hero-btn {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-
-    font-family: inherit;
+   
     font-weight: 700;
-    font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
     align-items: center;
-    text-align: center;
+    
 }
+
+/*---------------properties---------------*/
 
 .section-properties .properties-title {
     color: var(--title-text-color);
@@ -118,6 +126,7 @@ body {
     letter-spacing: 0.03em;
 }
 
+/*---------------employment---------------*/
 .section-employment .employment-title,
 .section-team .team-title {
     color: var(--title-text-color);
@@ -129,6 +138,7 @@ body {
     letter-spacing: 0.03em;
 }
 
+/*---------------team---------------*/
 .team-list .team-link,
 .team-list .team-text {
     color: var(--title-text-color);
@@ -146,6 +156,34 @@ body {
     font-weight: 400;
 }
 
+/*---------------portfolio---------------*/
+.portfolio-btn {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    color: var(--primary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+/*---------------footer---------------*/
 footer .logo{
     color: var(--primary-white-color);
 
