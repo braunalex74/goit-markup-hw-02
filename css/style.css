@@ -6,6 +6,11 @@
     --background-color: #2F303A;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: 400;
+}
+
 .list {
     list-style: none;
 }
@@ -18,6 +23,7 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
 
     text-decoration: none
 }
@@ -31,14 +37,13 @@
     color:var(--accent-color);
 }    
 
-.header-nav .link {
+.header-nav .link{
     color: var(--title-text-color);
 
-    font-family: 'Roboto';
-    font-style: 400;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
 
     text-decoration: none
 }
@@ -48,32 +53,17 @@
     color: var(--accent-color);
 }
 
-
 .header-contact .link {
     color: var(--primary-text-color);
-
-    font-family: 'Roboto';
-    font-style: 400;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14px;
-
-    text-decoration: none
-}
-
-.header-contact .link:hover,
-.header-contact .link:focus {
-    color: var(--accent-color);
 }
 
 .section-hero h1{
     color: var(--primary-white-color);
 
-    font-family: 'Roboto';
-    font-style: 400l;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
 }
@@ -82,101 +72,94 @@
     background-color: var(--background-color);
 }
 
-button {
+.btn {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 
-    font-family: 'Roboto';
-    font-style: 400;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.06em;
     align-items: center;
     text-align: center;
-
-    width: 216px;
-    height: 50px;
-    left: 692px;
-    top: 430px;
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
 }
 
 .section-properties .properties-title {
     color: var(--title-text-color);
 
-    font-family: 'Roboto';
-    font-style: 400;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .section-properties .properties-text {
     color: var(--primary-text-color);
 
-    font-family: 'Roboto';
-    font-style: 400;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
-.section-employment .employment-title {
-    color: var(--title-text-color);
-
-    font-family: 'Roboto';
-    font-style: 400;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
-
+.section-employment .employment-title,
 .section-team .team-title {
     color: var(--title-text-color);
 
-    font-family: 'Roboto';
-    font-style: 400;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
-.team-list .team-link {
+.team-list .team-link,
+.team-list .team-text {
     color: var(--title-text-color);
 
-    font-family: 'Roboto';
-    font-style: 400;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team-list .team-text {
     color: var(--primary-text-color);
 
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
 }
 
+footer .logo{
+    color: var(--primary-white-color);
+
+    text-decoration: none
+}    
 
 .footer-contact .link {
     color: rgba(255, 255, 255, 0.6);
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 
     text-decoration: none
 }
@@ -189,12 +172,6 @@ button {
 footer {
     background-color: var(--background-color);
 }
-
-footer .logo{
-    color: var(--primary-white-color);
-
-    text-decoration: none
-}    
 
 .footer-contact a[href="https://goo.gl/maps/PAnnSUerjHj3gwqy8"] {
     color: var(--primary-white-color);
