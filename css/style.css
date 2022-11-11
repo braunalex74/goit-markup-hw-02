@@ -9,6 +9,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-style: 400;
+    color: var(--primary-text-color);
 }
 
 .list {
@@ -54,10 +55,6 @@ body {
     color: var(--accent-color);
 }
 
-.header-contact .link {
-    color: var(--primary-text-color);
-}
-
 /*---------------hero---------------*/
 .section-hero h1{
     color: var(--primary-white-color);
@@ -78,6 +75,7 @@ body {
     font-family: inherit;
     font-size: 16px;
     text-align: center;
+    cursor: pointer;
 }
 
 .hero-btn {
@@ -118,9 +116,7 @@ body {
   }
 
 .section-properties .properties-text {
-    color: var(--primary-text-color);
-
-    font-weight: 400;
+    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -183,7 +179,6 @@ body {
 .portfolio-text {
     color: var(--primary-text-color);
 
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
