@@ -24,7 +24,7 @@ body {
 .title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -51,29 +51,31 @@ body {
 
 .header-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;    
     color: #000000;   
 }
-.header-link {
+.header-link,
+.header-contact {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+.header-link {
     color: var(--title-text-color);
 }
-.header-link:hover,
-.header-link:focus {
+.header-nav-list .header-link:hover,
+.header-nav-list .header-link:focus {
     color: var(--accent-color);
 }
+.header-nav-list .header-link:active {
+    color: orange;
+}
+
 .header-contact {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
     color: var(--primary-text-color);   
 }
 .header-contact:hover,
@@ -83,12 +85,14 @@ body {
 
 /*---------------HERO---------------*/
 .section-hero {
-    background: #2F303A;
+    background: var(--background-color);
 }
 .hero-btn {
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
+    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -99,7 +103,7 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-    color: var(--accent-color);
+    color: orange;
 }
 
 /*---------------PROPERTIES---------------*/
@@ -107,7 +111,7 @@ body {
 .properties-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-text-color);
@@ -115,16 +119,16 @@ body {
 .properties-text {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
 /*---------------EMPLOYMENT---------------*/
-.employment-title {
+.employment-title,
+.team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    text-align: center;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
@@ -133,49 +137,76 @@ body {
 .section-team {
     background-color: #F5F4FA;
 }
-.team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
+.team-info,
+.team-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
-.team-info {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
-}
 .team-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
+/*---------------PORTFOLIO---------------*/
+.portfolio-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background: #F5F4FA;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--primary-white-color);
+    background: var(--accent-color);
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.86x;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
 /*---------------FOOTER---------------*/
 
+.footer {
+    background-color: var(--background-color);
+}
 .footer-logo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+}
+.footer-contact a[href="https://goo.gl/maps/PAnnSUerjHj3gwqy8"] {
     color: var(--primary-white-color);
 }    
-.footer-contact .link {
+.footer-contact {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-contact .link:hover,
-.footer-contact .link:focus {
+.footer-contact:hover,
+.footer-contact:focus {
     color: var(--accent-color);
 }
-.footer {
-    background-color: var(--background-color);
-}
-
-.footer-contact a[href="https://goo.gl/maps/PAnnSUerjHj3gwqy8"] {
-    color: var(--primary-white-color);
+.add {
+    color: #ffffff;
 }
