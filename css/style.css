@@ -24,7 +24,7 @@ body {
     list-style: none;
 }
 
-.title {
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -74,8 +74,8 @@ body {
 .header-nav-list .header-link:focus {
     color: var(--accent-color);
 }
-.header-nav-list .header-link:active {
-    color: orange;
+.header-nav-list .header-link.current {
+    color: var(--accent-color);
 }
 
 .header-contact {
