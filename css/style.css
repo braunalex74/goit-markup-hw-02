@@ -8,9 +8,12 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
     text-decoration: none;
+
 }
 
 .link {
@@ -60,7 +63,7 @@ body {
 .header-link,
 .header-contact {
     font-weight: 500;
-    font-size: 14px;
+   
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -118,9 +121,7 @@ body {
 }
 .properties-text {
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 /*---------------EMPLOYMENT---------------*/
@@ -129,7 +130,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    
     color: var(--title-text-color);
 }
 
@@ -198,7 +199,6 @@ body {
 }    
 .footer-contact {
     font-style: normal;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
