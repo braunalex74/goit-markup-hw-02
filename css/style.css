@@ -5,21 +5,16 @@
     --primary-white-color:#ffffff;
     --background-color: #2F303A;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
-    text-decoration: none;
-
 }
-
 .link {
     text-decoration: none;
 }
-
 .list {
     list-style: none;
 }
@@ -129,7 +124,6 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    
     color: var(--title-text-color);
 }
 
